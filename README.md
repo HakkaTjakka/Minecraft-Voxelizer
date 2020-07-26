@@ -17,9 +17,13 @@ Download/Setup/Install https://github.com/HakkaTjakka/MinecraftWorldEditor
 Directory for models, with each model in sep. dir, plus run makelist.bat for making list.txt with all the paths to all objects.
 
 Important files to watch:
+
   pacman.ini
-  pacman_cuberite/src/viewer/*.*        (reading/displaying/converting 3d .obj files)
+
+  pacman_cuberite/src/viewer/*.*        (reading/displaying/converting 3d .obj files) (voxelizer core files are in there, and in wuppie.cpp)
+
   pacman_cuberite/src/mceditor/test.c   (create region (.mca) files)
+
   pacman_cuberite/src/wuppie.cpp        (voxelizer, works with /src/viewer/*.* files)
 
 Create schematic 100 blocks high (automatic from command line)
